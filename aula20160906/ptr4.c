@@ -7,8 +7,8 @@ int main () {
     printf("Digite outro numero real: ");
     scanf("%f", &num2);
     soma=num1+num2;
-    printf("Endereço de memoria e conteudo do primeiro numero: %p : %f\n", &num1, num1);
-    printf("Endereço de memoria e conteudo do segundo numero: %p : %f\n", &num2, num2);
-    printf("Endereço de memoria e conteudo da soma: %p : %f\n", &soma, soma);
+    printf("Endereco de memoria e conteudo do primeiro numero: %p : %f\n", &num1, num1);
+    printf("Endereco de memoria e conteudo do segundo numero: %p : %f\n", &num2, num2);
+    printf("Endereco de memoria e conteudo da soma: %p : %f\n", &soma, soma);
     return 0;
 }
